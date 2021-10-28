@@ -19,6 +19,4 @@ server.use(express.urlencoded({ extended: true }));
 // Routes
 server.use("/", routes);
 
-
-
 module.exports = server;
