@@ -19,4 +19,8 @@ server.use(express.urlencoded({ extended: true }));
 // Routes
 server.use("/", routes);
 
+routes.get('/', function(req, res){
+  res.send('hey') 
+})
+
 module.exports = server;

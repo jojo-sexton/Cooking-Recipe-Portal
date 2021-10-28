@@ -4,7 +4,11 @@
   "description": "Not sure what to cook? Look here",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index",
+    "knex": "knex",
+    "lint": "eslint .",
+    "test": "jest --watch --noStackTrace"
   },
   "repository": {
     "type": "git",
