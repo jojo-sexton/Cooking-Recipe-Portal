@@ -1,0 +1,30 @@
+{
+  "name": "cooking-recipe-portal",
+  "version": "1.0.0",
+  "description": "Not sure what to cook? Look here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jojo-sexton/Cooking-Recipe-Portal.git"
+  },
+  "keywords": [
+    "cooking",
+    "recipes",
+    "masterchef",
+    "fun"
+  ],
+  "author": "Michael, Shaun, Rodrigo and JoJo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jojo-sexton/Cooking-Recipe-Portal/issues"
+  },
+  "homepage": "https://github.com/jojo-sexton/Cooking-Recipe-Portal#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "jest": "^27.3.1"
+  }
+}
